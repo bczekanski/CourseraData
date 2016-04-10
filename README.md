@@ -1,1 +1,1 @@
-# CourseraData
+My run_analysis.R script reads in all of the data from the various data sets, then combined them to create one complete data set. Next my script filters out the duplicates and renames the actvities as the activities that they are, rather than using the numeric codes. I then create combined2 which has the means for all of the different observations.

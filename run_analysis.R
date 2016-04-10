@@ -31,3 +31,4 @@ combined$V1.1[combined$V1.1 == 6] <- "Laying"
 combined2 <- combined %>%
   group_by(V1, V1.1) %>%
   summarize_each(funs(mean))
+write.table(combined, file = "combined.txt", row.names = FALSE)
